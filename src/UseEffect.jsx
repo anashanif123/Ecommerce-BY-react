@@ -82,7 +82,7 @@ function UseEffect() {
                             title={data.title}
                             key={data.id}
                             image={data.image}
-                            price={data.price}
+                            price={data.price +`$`}
                         />
                     ))}
                 </div>
